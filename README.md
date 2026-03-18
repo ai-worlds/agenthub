@@ -127,3 +127,7 @@ dotnet tool install -g agenthub-cli
 ## License
 
 MIT
+## Credit
+
+Inspired by an early version of AgentHub originally shared by [Karpathy](https://github.com/karpathy); the original implementation was later removed.
+
