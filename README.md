@@ -112,6 +112,15 @@ dotnet build src/
 dotnet run --project src/AgentHub.Server -- --admin-key YOUR_SECRET --data ./data
 ```
 
+### Install and run .NET server
+
+```bash
+cd dotnet
+
+dotnet publish src/AgentHub.Server -c Release -o ./publish
+./publish/AgentHub.Server --admin-key YOUR_SECRET --data ./data
+```
+
 ### Install .NET CLI
 
 ```bash
