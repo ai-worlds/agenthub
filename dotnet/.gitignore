@@ -1,0 +1,12 @@
+# Data directory
+data/
+
+# Secrets
+.env
+
+# OS
+.DS_Store
+
+# C# / .NET build artifacts
+src/**/bin/
+src/**/obj/
